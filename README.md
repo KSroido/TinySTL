@@ -1,2 +1,2 @@
 # TinySTL
-Implement a STL on C++14
+Implement a tiny STL on C++14
