@@ -1,2 +1,3 @@
 # TinySTL
-Implement a tiny STL on C++14
+Learn STL basical design philosophy by a TinySTL with full document! (on C++14)
+
