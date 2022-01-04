@@ -10,18 +10,18 @@ template <typename T>
 class allocator
 {
 public:
-	typedef T			theType;
-	typedef T*			thePointer;
+	typedef T				theType;
+	typedef T*				thePointer;
 	typedef const T*		theConstPointer;
-	typedef T&			theReference;
+	typedef T&				theReference;
 	typedef const T			theConstReference;
 	typedef size_t			theSizeCounter;
 	typedef ptrdiff_t		theIndexDiffer;
 
 	static thePointer		allocate();
 	static thePointer		allocate(theSizeCounter n);
-	static void			deallocate(thePointer ptr);
-	static void			construct(thePointer ptr);
+	static void				deallocate(thePointer ptr);
+	static void				construct(thePointer ptr);
 
 
 
